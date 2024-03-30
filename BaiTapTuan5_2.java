@@ -9,13 +9,13 @@ public class BaiTapTuan5_2 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		
-//		RockPaperScissors(s);
+		RockPaperScissors(s);
 		
-//		MinNumberAddedUpTo(10000);
+		MinNumberAddedUpTo(10000);
 		
-//		SumOfAllPositiveOddNumbers(s);
+		SumOfAllPositiveOddNumbers(s);
 		
-//		CalculateGeometricSeries(s);
+		CalculateGeometricSeries(s);
 		
 		BankingCalculator(s);
 		
