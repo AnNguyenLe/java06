@@ -46,9 +46,9 @@ public class BaiTapBuoi7_1 {
 		System.out.print("Nhap so nguyen: ");
 		int num = s.nextInt();
 
-		int halfValue = num / 2;
+		int limit = (int)Math.sqrt(num);
 		boolean isPrime = true;
-		for (int i = 2; i <= halfValue; i++) {
+		for (int i = 2; i <= limit; i++) {
 			if (num % i == 0) {
 				isPrime = false;
 				break;
